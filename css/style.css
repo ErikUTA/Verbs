@@ -1,0 +1,59 @@
+html {
+    background-image: url('https://img.freepik.com/fotos-premium/monton-letras-alfabeto-negro-3d-sobre-fondo-negro_284880-5.jpg?w=1380');
+}
+
+#verbs-container {
+    margin: 0 35%;
+}
+  
+.verbs-answer {
+    display: block;
+}
+
+.rightAnswer, .rightAnswer:hover {
+    background-color: #6ab04c;
+    border-color: #6ab04c;
+    color: #ffffff;
+}
+
+.wrongAnswer, .wrongAnswer:hover {
+    background-color: #B33030;
+    border-color: #B33030;
+    color: #ffffff;
+}
+
+#next {
+    margin-top: 10rem;
+    cursor: pointer;
+    color: green;
+}
+
+.center {
+    width: 100vw;
+    height: 80vh;
+    background-image: url('https://img.freepik.com/fotos-premium/monton-letras-alfabeto-negro-3d-sobre-fondo-negro_284880-5.jpg?w=1380');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-verbs {
+    padding-top: 2%;
+    background: #212529;
+    color: white;
+    width: 50%;
+    height: 90%;
+    border-radius: 15px;
+}
+
+#showImage > img {
+    width: 227px;
+    height: 150px;
+}
+
+#showImage {
+    position: relative;
+    width: 227px;
+    height: 150px;
+
+}
