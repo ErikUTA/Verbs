@@ -98,10 +98,7 @@ function ponerVerbo() {
   imgText += "height:'140px' width='100px'>";
 
 
-  first.classList.add("btn","btn-outline-primary","btn-md");
-  second.classList.add("btn","btn-outline-primary","btn-md");
-  third.classList.add("btn","btn-outline-primary","btn-md");
-  fourth.classList.add("btn","btn-outline-primary","btn-md");
+  first.className = second.className = third.className = fourth.className = "verbs-answer btn btn-outline-primary btn-md";
 
   if (lastPosition >= 0){
     let just_position = lastPosition+1; // Observacion cambio por let
